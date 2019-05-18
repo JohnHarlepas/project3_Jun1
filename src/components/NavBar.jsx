@@ -336,10 +336,10 @@ NavBar.propTypes = {
 
 //Default Props
 NavBar.defaultProps = {
-    MainLogo: require('../assets/img/logo.png'),
-    Logo2: require('../assets/img/logo2.png'),
-    mailLink: "mailto:name@email.com",
-    mail: "support@roxy.com ",
+    MainLogo: require('../assets/img/logo3.jpg'),
+    Logo2: require('../assets/img/logo2c.png'),
+    mailLink: "mailto:support@opass.com",
+    mail: "support@opass.com ",
     numberLink: "callto:+4917640206387",
     Number: "+4917640206387",
     facebookLink: "//facebook.com/envato",

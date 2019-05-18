@@ -224,11 +224,11 @@ Contact.propTypes = {
 Contact.defaultProps = {
     SectionbgTitle: "Contact",
     sectionTitle: "Our Contact",
-    sectionDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+    sectionDescription: "We strive to provide the best customer service in the industry. If you have any problems, please contact us and we will make every effort to help you.",
     AddTitle: "Address",
-    Address: "2750 Quadra Street Victoria, Canada.",
+    Address: "950 N Glebe Road, Arlington, VA 22203",
     EmailTitle: "Email",
-    Email: "roxy@gmail.com",
+    Email: "support@opass.com",
     PhoneTitle: "Phone",
     Phone: "+1-325-555-0156",
 };

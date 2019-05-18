@@ -26,7 +26,7 @@ class VideoArea extends Component {
                                 <ModalVideo
                                     channel="youtube"
                                     isOpen={this.state.isOpen}
-                                    videoId="vr0qNXmkUJ8"
+                                    videoId="GE6sFLWf430"
                                     onClose={() =>
                                         this.setState({
                                             isOpen: false
@@ -55,6 +55,6 @@ VideoArea.propTypes= {
 }
 VideoArea.defaultProps = {
     Title: "Watch Video",
-    Content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum sagittis nulla, non vehicula mauris rutrum vitae. Sed non consequat dolor",
+    Content: "When parking terminals or gates fail, they strand customers inside the parking garage, exposing them to serious health concerns. O-Pass aims to end this unfortunate reality for customers. ",
 }
 export default VideoArea;

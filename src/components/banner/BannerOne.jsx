@@ -111,28 +111,28 @@ BannerOne.defaultProps = {
     banneronesData: [
         {
             BgClass: "single-slider-item slide-bg-1",
-            TopTitle: "Clean & Creative",
-            Title: "Fully Responsive Design",
+            TopTitle: "Safe & Secure",
+            Title: "Fully Automated System",
             Content:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+                "Exit parking garbages without having to pay at the terminals or gates, preventing accidents and loss of time.",
             BtnLink:  "/#0",
             BtnName: "get started"
         },
         {
             BgClass: "single-slider-item slide-bg-2",
-            TopTitle: "Clean & Creative",
-            Title: "Fully Responsive Design",
+            TopTitle: "Innovative & Unique",
+            Title: "Dynamic User Interaction",
             Content:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+                "Exhaustive customer research was used to create a set of features that assure ease of use and optimal convenience.",
             BtnLink:  "/#0",
             BtnName: "get started"
         },
         {
             BgClass: "single-slider-item slide-bg-3",
-            TopTitle: "Clean & Creative",
-            Title: "Fully Responsive Design",
+            TopTitle: "Reliable & Stress Free",
+            Title: "Knowledgeable Industry Leadership",
             Content:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+                "Ending the practice of leaving customers adrift without clear and absolute support.",
             BtnLink:  "/#0",
             BtnName: "get started"
         }
@@ -140,18 +140,18 @@ BannerOne.defaultProps = {
     thumbsData: [
         {
             ThumbIcon: "icofont-rocket-alt-1",
-            ThumbTitle: "Beautiful Designs",
+            ThumbTitle: "Adaptive Technology",
             ThumbContent: "We strive to embrace and drive change in our industry which allows us to keep our clients relevant.",
         },
         {
             ThumbIcon: "icofont-box",
             ThumbTitle: "Unique Features",
-            ThumbContent: "We strive to embrace and drive change in our industry which allows us to keep our clients relevant.",
+            ThumbContent: "We incorporate a series uniqiue benefits to secure complete customer satisfaction.",
         },
         {
             ThumbIcon: "icofont-live-support",
             ThumbTitle: "Reliable Support",
-            ThumbContent: "We strive to embrace and drive change in our industry which allows us to keep our clients relevant.",
+            ThumbContent: "We embrace a customer-centric culture, where resources are utilized to maintain our brand quality.",
         },
     ]
 };

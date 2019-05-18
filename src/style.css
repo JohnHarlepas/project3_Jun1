@@ -474,13 +474,13 @@ button {
     Slider Area CSS 
    ========================= */
 .slide-bg-1 {
-    background-image: url(assets/img/slide-bg-1.jpg);
+    background-image: url(assets/img/gate4.jpg);
 }
 .slide-bg-2 {
-    background-image: url(assets/img/slide-bg-2.jpg);
+    background-image: url(assets/img/featuresSlider.jpeg);
 }
 .slide-bg-3 {
-    background-image: url(assets/img/slide-bg-3.jpg);
+    background-image: url(assets/img/supportSlider2.jpg);
 }
 .hompage-slides-wrapper {
 	position: relative;
@@ -713,21 +713,21 @@ Services Area CSS
     padding: 60px 0;
 }
 .cta-bg-img {
-    background-image: url(assets/img/cta-bg-img.jpg);
+    background-image: url(assets/img/carPark.jpeg);
 }
 .cta-info {
 	margin-top: 42px;
 }
 .cta-info h2 {
 	font-weight: 600;
-	color: #272727;
+	color:white;
 	font-size: 32px;
     line-height: 36px;
 }
 .cta-info p {
 	margin: 12px 0 40px;
 	font-size: 17px;
-	color: #606060;
+	color: white;
 }
 /* =========================
     End CTA Area CSS 
@@ -1377,7 +1377,7 @@ Services Area CSS
     top: 0;
 }
 .video-bg {
-    background-image: url(assets/img/video-bg.jpg);
+    background-image: url(assets/img/warning1.png);
 }
 .video-inner-content {
     color: #fff;
