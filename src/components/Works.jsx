@@ -7,21 +7,21 @@ import Lightbox from "react-image-lightbox";
 
 
 const images = [
-    require("../assets/img/work-1.jpg"),
-    require("../assets/img/work-2.jpg"),
-    require("../assets/img/work-3.jpg"),
-    require("../assets/img/work-4.jpg"),
-    require("../assets/img/work-5.jpg"),
-    require("../assets/img/work-6.jpg")
+    require("../assets/img/workSteps1Big.png"),
+    require("../assets/img/workSteps2Big.png"),
+    require("../assets/img/workSteps3Big.png"),
+    require("../assets/img/workSteps4Big.png"),
+    require("../assets/img/workSteps5Big.png"),
+    require("../assets/img/workSteps6Big.png")
   ];
   
   const smallImages = [
-      require("../assets/img/work-1.jpg"),
-      require("../assets/img/work-2.jpg"),
-      require("../assets/img/work-3.jpg"),
-      require("../assets/img/work-4.jpg"),
-      require("../assets/img/work-5.jpg"),
-      require("../assets/img/work-6.jpg")
+      require("../assets/img/work1.png"),
+      require("../assets/img/work2.png"),
+      require("../assets/img/work3.png"),
+      require("../assets/img/work4.png"),
+      require("../assets/img/work5.png"),
+      require("../assets/img/work6.png")
   ];
 
 class Works extends Component {
