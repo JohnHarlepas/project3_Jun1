@@ -27,15 +27,15 @@ export class Pricing extends Component {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="tab-slider">
-                                    <Tabs defaultActiveKey="monthly" id="uncontrolled-tab">
-                                        <Tab eventKey="monthly" title="Monthly">
+                                    <Tabs defaultActiveKey="Atlantic" id="uncontrolled-tab">
+                                        <Tab eventKey="Atlantic" title="Atlantic">
                                             {/* ItemOne Component from src/components/pricingItem/ItemOne */}
                                             <ItemOne />
                                         </Tab>
-                                        <Tab eventKey="yearly" title="Yearly">
+                                        {/* <Tab eventKey="yearly" title="Yearly"> */}
                                             {/* ItemOne Component from src/components/pricingItem/ItemTwo */}
-                                            <ItemTwo />
-                                        </Tab>
+                                            {/* <ItemTwo /> */}
+                                        {/* </Tab> */}
                                     </Tabs>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ Pricing.defaultProps = {
     SectionbgTitle: "Pricing",
     sectionTitle: "Pricing",
     sectionDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+        "We know that buying parking can be not only a inconvenience but also take a toll on your personal finances. So, we arranged a structured pricing system to give you options.",
 
 };
 export default Pricing

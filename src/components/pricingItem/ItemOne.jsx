@@ -44,7 +44,7 @@ export class ItemOne extends Component {
         //End ItemOne Loop
         return (
         <React.Fragment>
-            <div role="tabpanel" className="tab-pane fade show active" id="monthly">
+            <div role="tabpanel" className="tab-pane fade show active" id="Atlantic">
                 <div className="pricing-container margin-top-60">
                     {itemonedata}           
                 </div>
@@ -59,49 +59,49 @@ ItemOne.PropsTypes = {
 ItemOne.defaultProps = {
     itemonesData: [
         {
-            planName: "BASIC",
+            planName: "First Hour",
             className: "plan",
-            description: "Free of charge one standard listing active for 30 days",
+            description: "The amount you are charged before your first hour",
             FeaturedClass: "",
             Featured: "",
-            price: "Free",
-            content1: "Any Ware Access",
-            content2: "10 GB Hosting",
-            content3: "2 Unique Users",
-            content4: "5 GB Capacity",
+            price: "$7",
+            content1: "Any available space",
+            content2: "Applies only for the day it is brought",
+            content3: "Easily Transferable",
+            content4: "500 Car Capacity",
             BtnName: "Purchase Now",
-            btnlink: "/#0 ",
+            btnlink: "/ebay3",
         },
         {
-            planName: "Extended",
+            planName: "Validated",
             className: "plan featured",
-            description: "One time fee for one listing, highlighted in the search results",
+            description: "One time special price for George Washignton students",
             FeaturedClass: "listing-badges",
             Featured: "Featured",
-            price: "$145",
-            content1: "Any Ware Access",
-            content2: "10 GB Hosting",
-            content3: "2 Unique Users",
-            content4: "12 GB Capacity",
-            content5: "Weekly Backups",
-            content6: "15 Domain Names",
-            content7: "Enhanced Security",
+            price: "$3",
+            content1: "Any available space",
+            content2: "Applies only for the day it is brought",
+            content3: "Easily Transferable",
+            content4: "500 Car Capacity",
+            // content5: "Weekly Backups",
+            // content6: "15 Domain Names",
+            // content7: "Enhanced Security",
             BtnName: "Purchase Now",
-            btnlink: "/#0",
+            btnlink: "/ebay",
         },
         {
-            planName: "Professional",
+            planName: "All Day",
             className: "plan",
-            description: "Monthly subscription for unlimited listings and availability",
+            description: "The amount you are charged after your first hour",
             FeaturedClass: "",
             Featured: "",
-            price: "$555",
-            content1: "Any Ware Access",
-            content2: "500 GB Hosting",
-            content3: "10 Unique Users",
-            content4: "50 GB Capacity",
+            price: "$17",
+            content1: "Any available space",
+            content2: "Applies only for the day it is brought",
+            content3: "Easily Transferable",
+            content4: "500 Car Capacity",
             BtnName: "Purchase Now",
-            btnlink: "/#0",
+            btnlink: "/ebay2",
         },
         
     ]

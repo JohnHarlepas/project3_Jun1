@@ -22,6 +22,7 @@ import BlogOne from "./pages/BlogOne";
 import BlogTwo from "./pages/BlogTwo";
 import SingleBlog from "./pages/SingleBlog";
 import ScrollUpBtn from "./components/ScrollUp";
+import Works from "./components/Works";
 
 class App extends Component {
     render() {
@@ -42,6 +43,32 @@ class App extends Component {
                                                 path="/blog-details"
                                                 component={SingleBlog}
                                             />
+
+                                            <Route
+                                                path="/ebay3"
+                                                component={() => window.location = 'https://www.ebay.com/itm/223527991950'}
+
+                                            />
+
+                                            <Route
+                                                path="/ebay2"
+                                                component={() => window.location = 'https://www.ebay.com/itm/223527992056'}
+
+                                            />
+
+                                            <Route
+                                                path="/ebay"
+                                                component={() => window.location = 'https://www.ebay.com/itm/223527989588'}
+
+                                            />
+
+                                            <Route
+                                                path="/works"
+                                                component={Works}
+                                            />
+
+
+
                                             <Route
                                                 path="/blog-two"
                                                 component={BlogTwo}

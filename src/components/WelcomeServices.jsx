@@ -57,7 +57,7 @@ WelcomeServices.propTypes = {
 WelcomeServices.defaultProps = {
     Title: "We offer best in class service for your needs",
     Content: "We strive to embrace and drive change in our industry which allows us to keep our clients relevant.",
-    BtnLink: "/#0",
+    BtnLink: "/ebay",
     BtnName: "PURCHASE NOW",
     Image: require("../assets/img/jumpingGuy.png"),
 };

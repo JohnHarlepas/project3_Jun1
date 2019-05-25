@@ -80,7 +80,7 @@ Partners.defaultProps = {
     partnersData: [
         {
             partnerLogo: require("../assets/img/partners-logo/img1.png"),
-            partnerLink: "/#0"
+            partnerLink: "/impark"
         },
         {
             partnerLogo: require("../assets/img/partners-logo/img2.png"),

@@ -53,6 +53,8 @@ class BannerOne extends Component {
                                                         <Icofont icon="icofont-long-arrow-right" />
                                                     <div className="mask" /></div>
                                                 </Link>
+
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -111,11 +113,12 @@ BannerOne.defaultProps = {
     banneronesData: [
         {
             BgClass: "single-slider-item slide-bg-1",
+            // the pictures for the bannner are found in the style.css under the class name slide-bg-1
             TopTitle: "Safe & Secure",
             Title: "Fully Automated System",
             Content:
                 "Exit parking garbages without having to pay at the terminals or gates, preventing accidents and loss of time.",
-            BtnLink:  "/#0",
+            BtnLink:  "/works",
             BtnName: "get started"
         },
         {
@@ -124,7 +127,7 @@ BannerOne.defaultProps = {
             Title: "Dynamic User Interaction",
             Content:
                 "Exhaustive customer research was used to create a set of features that assure ease of use and optimal convenience.",
-            BtnLink:  "/#0",
+            BtnLink:  "/works",
             BtnName: "get started"
         },
         {
@@ -133,7 +136,7 @@ BannerOne.defaultProps = {
             Title: "Knowledgeable Industry Leadership",
             Content:
                 "Ending the practice of leaving customers adrift without clear and absolute support.",
-            BtnLink:  "/#0",
+            BtnLink:  "/works",
             BtnName: "get started"
         }
     ],
