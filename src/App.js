@@ -40,6 +40,54 @@ class App extends Component {
                                     <section className="route-section">
                                         <Switch location={location}>
                                         <Route
+                                               path="/linkedin"
+                                               component={() => window.location = 'https://www.linkedin.com/in/john-harlepas-softwaredev/'}
+
+                                           />
+
+                                                <Route
+                                               path="/linkedin2"
+                                               component={() => window.location = 'https://www.linkedin.com/in/steven-peng-71719548/'}
+
+                                           />
+
+                                            <Route
+                                               path="/linkedin3"
+                                               component={() => window.location = 'https://www.linkedin.com/in/patrick-ellis-19bb186a/'}
+
+                                           />
+
+                                            <Route
+                                               path="/linkedin4"
+                                               component={() => window.location = 'https://www.linkedin.com/in/john-druhan-8aa16225/'}
+
+                                           />
+
+                                            <Route
+                                               path="/demand"
+                                               component={() => window.location = 'http://www.parking-net.com/parking-industry-blog/get-my-parking/why-demand-based-parking-is-smart'}
+
+                                           />
+
+                                            <Route
+                                               path="/future"
+                                               component={() => window.location = 'http://www.parking-net.com/parking-industry-blog/parking-network/preparing-for-an-autonomous-future'}
+
+                                           />
+
+                                            <Route
+                                               path="/automated"
+                                               component={() => window.location = 'http://blog.getmyparking.com/2018/07/12/automated-car-parking-system-walking-through-the-history-of-parking/'}
+
+                                           />
+
+                                            <Route
+                                               path="/ticket"
+                                               component={() => window.location = 'https://blog.spothero.com/the-best-tricks-to-avoid-parking-tickets-in-the-city/'}
+
+                                           />
+
+                                        <Route
                                                 path="/impark"
                                                 component={() => window.location = 'https://www.impark.com/washington-dc/655-new-york-ave-parking-garage/?gclid=EAIaIQobChMItLfg-OGj4gIVFonICh3qrAxUEBAYASAAEgLeQ_D_BwE'}
 

@@ -35,9 +35,9 @@ class FunFacts extends Component {
                         <div className="col-lg-4 col-md-4">
                             <div className="count-box text-center">
                                 <div className="glyph">
-                                    <Icofont icon="icofont-handshake-deal" />
+                                    <Icofont icon="icofont-car" />
                                 </div>
-                                <p>Clients Worked With</p>
+                                <p>CARS PARKED DAILY</p>
                                 <h2 className="counter">
                                 <VisibilitySensor
                                     onChange={this.onVisibilityChange}
@@ -50,10 +50,10 @@ class FunFacts extends Component {
                                         start={0}
                                         end={
                                             this.state.didViewCountUp
-                                                ? 1548
+                                                ? 234548
                                                 : 0
                                         }
-                                        duration={3}
+                                        duration={5}
                                     />
                                 </VisibilitySensor>
                                 </h2>
@@ -63,9 +63,9 @@ class FunFacts extends Component {
                         <div className="col-lg-4 col-md-4">
                             <div className="count-box text-center">
                                 <div className="glyph">
-                                    <Icofont icon="icofont-checked" />
+                                    <Icofont icon="icofont-star" />
                                 </div>
-                                <p>Completed Projects</p>
+                                <p>5 STAR REVIEWS</p>
                                 <h2 className="counter">
                                 <VisibilitySensor
                                     onChange={this.onVisibilityChange}
@@ -78,10 +78,10 @@ class FunFacts extends Component {
                                         start={0}
                                         end={
                                             this.state.didViewCountUp
-                                                ? 894
+                                                ? 5284894
                                                 : 0
                                         }
-                                        duration={3}
+                                        duration={5}
                                     />
                                 </VisibilitySensor>
                                 </h2>
@@ -91,9 +91,9 @@ class FunFacts extends Component {
                         <div className="col-lg-4 col-md-4">
                             <div className="count-box text-center">
                                 <div className="glyph">
-                                    <Icofont icon="icofont-trophy-alt" />
+                                    <Icofont icon="icofont-id-card" />
                                 </div>
-                                <p>Winning Awards</p>
+                                <p>CARD CARRYING PREFERRED CUSTOMERS</p>
                                 <h2 className="counter">
                                 <VisibilitySensor
                                     onChange={this.onVisibilityChange}
@@ -106,7 +106,7 @@ class FunFacts extends Component {
                                         start={0}
                                         end={
                                             this.state.didViewCountUp
-                                                ? 58
+                                                ? 800000
                                                 : 0
                                         }
                                         duration={3}
@@ -133,9 +133,9 @@ FunFacts.propTypes = {
 //Default Props
 FunFacts.defaultProps = {
     SectionbgTitle: "Fun Facts",
-    sectionTitle: "Some Fun Facts",
+    sectionTitle: "0-Pass Fun Facts",
     sectionDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+        "Buckle-Up For Some Of Our Awesome Accomplishments.",
 };
 
 export default FunFacts;

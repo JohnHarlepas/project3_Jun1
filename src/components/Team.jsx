@@ -16,9 +16,9 @@ class Team extends Component {
                     <h3 className="title">{team.Name}</h3>
                     <span className="post">{team.Profession}</span>
                     <ul className="icon">
-                        <li><Link to={team.facebookLink}><Icofont icon="icofont-facebook" /></Link></li>
-                        <li><Link to={team.linkedinLink}><Icofont icon="icofont-linkedin" /></Link></li>
-                        <li><Link to={team.twitterLink}><Icofont icon="icofont-twitter" /></Link></li>
+                        {/* <li><Link to={team.facebookLink}><Icofont icon="icofont-facebook" /></Link></li> */}
+                        <li><Link to={team.linkedinLink} target="blank"><Icofont icon="icofont-linkedin" /></Link></li>
+                        {/* <li><Link to={team.twitterLink}><Icofont icon="icofont-twitter" /></Link></li> */}
                     </ul>
                 </div>
             </div>
@@ -88,40 +88,40 @@ Team.propTypes = {
 //Default Props
 Team.defaultProps = {
     SectionbgTitle: "Team",
-    sectionTitle: "Our Team",
+    sectionTitle: "The O Team",
     sectionDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+        "The DREAM TEAM of the Automated Parking Industry",
         teamsData: [
         {
-            Image: require("../assets/img/team-one.jpg"),
-            Name: "Williamson",
-            Profession: "Web Developer",
+            Image: require("../assets/img/JohnH.png"),
+            Name: "John Harlepas",
+            Profession: "Senior Web Developer - Team Leader",
             facebookLink: "/#0",
-            linkedinLink: "/#0",
+            linkedinLink: "/linkedin",
             twitterLink: "/#0",
         },
         {
-            Image: require("../assets/img/team-two.jpg"),
-            Name: "Jone Doy",
-            Profession: "Designer",
+            Image: require("../assets/img/StephenPing.JPG"),
+            Name: "Stephen Peng",
+            Profession: "Full Stack Web Developer",
             facebookLink: "/#0",
-            linkedinLink: "/#0",
+            linkedinLink: "/linkedin2",
             twitterLink: "/#0",
         },
         {
-            Image: require("../assets/img/team-three.jpg"),
-            Name: "Oliver",
-            Profession: "Photographer",
+            Image: require("../assets/img/Patrick.png"),
+            Name: "Patrick Ellis",
+            Profession: "Full Stack Web Developer",
             facebookLink: "/#0",
-            linkedinLink: "/#0",
+            linkedinLink: "/linkedin3",
             twitterLink: "/#0",
         },
         {
-            Image: require("../assets/img/team-two.jpg"),
-            Name: "Mark Jone",
-            Profession: "CEO",
+            Image: require("../assets/img/JohnDruhan2.jpeg"),
+            Name: "John F. Druhan",
+            Profession: "Full Stack Web Developer",
             facebookLink: "/#0",
-            linkedinLink: "/#0",
+            linkedinLink: "/linkedin4",
             twitterLink: "/#0",
         },
         
