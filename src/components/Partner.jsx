@@ -76,32 +76,32 @@ Partners.propTypes = {
 Partners.defaultProps = {
     SectionbgTitle: "Partners",
     sectionTitle: "Our Partners",
-    sectionDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+    sectionDescription: "These are the companies we are affiliated with and share a common interest in in serving the people of our communities.",
     partnersData: [
         {
-            partnerLogo: require("../assets/img/partners-logo/img1.png"),
+            partnerLogo: require("../assets/img/partners-logo/imparkUpdate.png"),
             partnerLink: "/impark"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/img2.png"),
-            partnerLink: "/#0"
+            partnerLogo: require("../assets/img/partners-logo/aceParkingUpdate.png"),
+            partnerLink: "/ace"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/img3.png"),
-            partnerLink: "/#0"
+            partnerLogo: require("../assets/img/partners-logo/colonialParkUpdate.png"),
+            partnerLink: "/colonialParking"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/img4.png"),
-            partnerLink: "/#0"
+            partnerLogo: require("../assets/img/partners-logo/OneParkingUpdate.png"),
+            partnerLink: "/oneParking"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/img5.png"),
-            partnerLink: "/#0"
+            partnerLogo: require("../assets/img/partners-logo/lazParkingUpdate.png"),
+            partnerLink: "/lazParking"
         },
         {
-            partnerLogo: require("../assets/img/partners-logo/img3.png"),
-            partnerLink: "/#0"
+            partnerLogo: require("../assets/img/partners-logo/atlanticParkingUpdate.png"),
+            partnerLink: "/atlanticParking"
         }
-    ]
+    ] 
 };
 export default Partners;

@@ -87,31 +87,40 @@ FAQ.propTypes = {
 //Default Props
 FAQ.defaultProps = {
     SectionbgTitle: "FAQ",
-    sectionTitle: "Frequntly Ask & Questions",
+    sectionTitle: "Frequntly Asked Questions",
     sectionDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+        "If you have more questions, send us a message and we will answer you as soon as possible.",
     
-    ContentTitle: "One More Question?",
+    ContentTitle: "Frequently Asked Questions",
     ContentDescription: "If you have more questions, send us a message and we will answer you as soon as possible.",
     ContentLink: "/#0",
 
         faqData: [
         {
-            title: "How to download your items?",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.",
+            title: "How to use our service?",
+            description: "When arriving at an O-pass station, press the circle button on the machine to slip out a parking pass for you to take. Before leaving the parking premises, go to our website and navigate to the pay for parking section. Pay for parking and go to the front desk to exchange your old pass for a new one to put in the O-pass machine upon leaving",
         },
         {
-            title: "View & download invoices?",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.",
+            title: "What to do incase your pass is lost?",
+            description: "Call 1-(800)-GET-PASS to speak with a representative. The representative will help you with processing a new parking transaction with O-Pass.",
         },
         {
-            title: "What is Item Support?",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.",
+            title: "How to reach O-Pass Support?",
+            description: "Call the toll free number: 1-(800)-GET-PASS. Our service is 24/7",
         },
         {
-            title: "How to contact an author?",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.",
+            title: "Will O-Pass expand to parking garages outside of Arlington, Virginia? ",
+            description: "Our vision is to expand nation-wide, but grand visions of expansion begin with small steps outside where the company first set root. Therefore we plan to expand to parts of Northern Virginia neighboring Arlington such as Reston and Southern Maryland in Gathersburg. We are also open to anyone who wishes to bring our services to another location, thus expanding our business to their area.",
+        },
+        {
+            title: "Is there an expansion schedule?",
+            description: "At the time of writing this in mid 2019, we have plans to expand our services to Reston by this year's end. Our plans for expansion to Southern Maryland will take place next year or later.",
+        },
+        {
+            title: "What kind of payment options are available?",
+            description: "Payment for the O-pass typically takes place online at ('place address of website here'). However, if the transaction cannot take place online for any reason, feel free to call our toll free number at 1-(800)-GET-PASS to complete the payment.",
         }
+        
     ]
 };
 
