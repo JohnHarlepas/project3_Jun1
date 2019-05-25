@@ -39,6 +39,36 @@ class App extends Component {
                                 >
                                     <section className="route-section">
                                         <Switch location={location}>
+                                        <Route
+                                                path="/impark"
+                                                component={() => window.location = 'https://www.impark.com/washington-dc/655-new-york-ave-parking-garage/?gclid=EAIaIQobChMItLfg-OGj4gIVFonICh3qrAxUEBAYASAAEgLeQ_D_BwE'}
+
+                                            />
+                                            <Route
+                                                path="/ace"
+                                                component={() => window.location = 'https://aceparking.com/find-parking/'}
+
+                                            />
+                                            <Route
+                                                path="/colonialParking"
+                                                component={() => window.location = 'https://www.ecolonial.com/parkers/parking-locator/?pm_s=789'}
+
+                                            />
+                                            <Route
+                                                path="/oneParking"
+                                                component={() => window.location = 'http://www.oneparking.com'}
+
+                                            />
+                                            <Route
+                                                path="/lazParking"
+                                                component={() => window.location = 'https://www.lazparking.com/local/arlington-va/4501-n-fairfax-dr'}
+
+                                            />
+                                            <Route
+                                                path="/atlanticParking"
+                                                component={() => window.location = 'https://www.asgpark.com/'}
+
+                                            />
                                             <Route
                                                 path="/blog-details"
                                                 component={SingleBlog}
