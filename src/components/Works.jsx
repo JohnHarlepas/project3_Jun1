@@ -243,10 +243,10 @@ Works.propTypes = {
 
 //Default Props
 Works.defaultProps = {
-    SectionbgTitle: "works",
-    sectionTitle: "works",
+    SectionbgTitle: "How",
+    sectionTitle: "How it works",
     sectionDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+        "Below you'll find a step by step process of how to use our service, its super easy! You'll never want to pay at the gate, or use a kiosk ever again.",
 };
 
 export default Works;

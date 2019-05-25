@@ -54,37 +54,37 @@ About.defaultProps = {
     SectionbgTitle: "About",
     sectionTitle: "About Us",
     sectionDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+        "We are John Harlepas, John Druhan, Steven Peng, and Patrick Ellis. We're just a rag-tag group of fullstack developers looking to solve issues, create new things, and jump forward in this new world of coding. ",
         aboutsData: [
         {
-            Icon: "icofont-binoculars",
-            title: "Backgrounds",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            Icon: "icofont-climbing",
+            title: "Ambition",
+            content: "We are ambitious with all the work we do, and cannot wait to extend our talents above and beyond. ",
         },
         {
-            Icon: "icofont-direction-sign",
-            title: "Our Approach",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            Icon: "icofont-tools-bag",
+            title: "Resourceful",
+            content: "Resources are key to a developers tool belt, we utilize multiple technologies and packages to bring our creations alive.",
         },
         {
-            Icon: "icofont-thermometer",
-            title: "Methodology",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            Icon: "icofont-chart-histogram-alt",
+            title: "Efficient",
+            content: "Getting things done before or by the deadline always guarantees happy customers/clients, is what we aim for.",
         },
         {
-            Icon: "icofont-users-social",
-            title: "Our Rich Experience",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            Icon: "icofont-brainstorming",
+            title: "Experience",
+            content: "Our experience is constantly growing and the opportunities are endless. Every project resonates ideas for the next.",
         },
         {
-            Icon: "icofont-money",
-            title: "Value for Money",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            Icon: "icofont-handshake-deal",
+            title: "Commitment",
+            content: "We are committed to every part of every project we do, nothing is an exception. We persevere for success.",
         },
         {
-            Icon: "icofont-unique-idea",
-            title: "Flexible Development",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            Icon: "icofont-transparent",
+            title: "Transparent",
+            content: "We have nothing to hide, we are up front with everything we create. Honesty is always the best policy.",
         },
     ]
 };
