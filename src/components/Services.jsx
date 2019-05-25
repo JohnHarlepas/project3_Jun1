@@ -53,48 +53,31 @@ Services.propTypes = {
 
 //Default Props
 Services.defaultProps = {
-    SectionbgTitle: "Services",
-    sectionTitle: "Services",
+    SectionbgTitle: "Service",
+    sectionTitle: "Why use this service?",
     sectionDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+        "This is a way to get around the hassle of waiting in line to pay your parking ticket at kiosks or at the gate, we are offering the convenience of pre paying your parking ticket on your mobile device before you leave. We all know the line to get out can get backed up very frequently, this is more efficient and can save everyone some time.",
 
     servicesData: [
         {
-            icon: "icofont-automation",
-            heading: "Creative Solutions",
+            icon: "icofont-refresh",
+            heading: "Flexibility",
             description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+                "We want to give you the option of flexibility, waiting in line can be annoying. Why wait?"
         },
         {
-            icon: "icofont-bullseye",
-            heading: "Excellent Features",
+            icon: "icofont-wall-clock",
+            heading: "Time Saving",
             description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+                "You could already be on the road home, but you're still in line. We can change that."
         },
         {
-            icon: "icofont-woman-in-glasses",
-            heading: "Friendly Support",
+            icon: "icofont-support",
+            heading: "Support",
             description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+                "We will always tend to the needs of our customers, contact us any time."
         },
-        {
-            icon: "icofont-chart-growth",
-            heading: "SEO & Advertising",
-            description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
-        },
-        {
-            icon: "icofont-network-tower",
-            heading: "Marketing & Consulting",
-            description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
-        },
-        {
-            icon: "icofont-laptop-alt",
-            heading: "Design & Development",
-            description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
-        },
+        
     ]
 };
 
