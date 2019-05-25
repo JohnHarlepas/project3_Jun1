@@ -492,6 +492,7 @@ button {
   height: 700px;
   font-size: 15px;
   color: #fff;
+  text-shadow: 1px 1px 0px #000000;
 }
 .single-slider-item .center-wrap {
     margin-top: 40px;
@@ -513,7 +514,8 @@ button {
 	background-color: #dddddd;
 	height: 700px;
 	font-size: 15px;
-	color: #fff;
+    color: #fff;
+
 }
 .banner-text h1 {
 	font-size: 51px;
