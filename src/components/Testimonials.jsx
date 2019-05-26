@@ -58,16 +58,16 @@ Testimonials.propTypes = {
 Testimonials.defaultProps = { 
     testimonialsData: [
         {
-            clientImage: require("../assets/img/client-one.png"),
-            Content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum sagittis nulla, non vehicula mauris rutrum vitae. Sed non consequat dolor. Cras in odio augue.",
-            Name: "Jason Statham",
-            Profession: "Founder & Director",
+            clientImage: require("../assets/img/johnSmall1.png"),
+            Content: "Keep your mind forever focused on following your passion's north star and the winds of fortune will forever push you forward.",
+            Name: "John D. Harlepas",
+            Profession: "Founder & Tech Lead",
         },
         {
-            clientImage: require("../assets/img/client-one.png"),
-            Content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum sagittis nulla, non vehicula mauris rutrum vitae. Sed non consequat dolor. Cras in odio augue.",
-            Name: "Jason Statham",
-            Profession: "Founder & Director",
+            clientImage: require("../assets/img/stephenSmall.png"),
+            Content: "The glow of one happy, satisfied customer is to me worth more than money.",
+            Name: "Stephen Peng",
+            Profession: "Full Stack Web Developer",
         },
     ]
 };
