@@ -93,7 +93,7 @@ FAQ.defaultProps = {
     
     ContentTitle: "Frequently Asked Questions",
     ContentDescription: "If you have more questions, send us a message and we will answer you as soon as possible.",
-    ContentLink: "/#0",
+    ContentLink: "/contact",
 
         faqData: [
         {
