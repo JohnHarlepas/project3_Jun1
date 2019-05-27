@@ -342,8 +342,8 @@ NavBar.defaultProps = {
     mail: "support@opass.com ",
     numberLink: "callto:+4917640206387",
     Number: "+4917640206387",
-    facebookLink: "//facebook.com/envato",
-    twitterLink: "//twitter.com/envato",
-    instagramLink: "//instagram.com/envato/",
+    facebookLink: "//facebook.com/",
+    twitterLink: "//twitter.com/",
+    instagramLink: "//instagram.com//",
 };
 export default NavBar;

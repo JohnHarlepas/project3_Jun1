@@ -30,7 +30,7 @@ export class ItemOne extends Component {
                         <li>{itemone.content8}</li>
                     </ul>
                     <div className="center-wrap">
-                        <Link to={itemone.btnlink} className="btn-a">
+                        <Link to={itemone.btnlink} className="btn-a" rel="noopener noreferrer" target="_blank">
                             <div className="button">
                                 {itemone.BtnName}
                                 <Icofont icon="icofont-long-arrow-right" />

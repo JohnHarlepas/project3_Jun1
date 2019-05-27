@@ -17,10 +17,16 @@ class Footer extends Component {
                                 <div className="social-icons bottom">
                                     <ul className="list-inline">
                                         <li>{this.props.socialTitle} </li>
-                                        <li><Link to={this.props.FacebookLink}><Icofont icon="icofont-facebook"/></Link></li>
-                                        <li><Link to={this.props.TwitterLink}><Icofont icon="icofont-twitter"/></Link></li>
-                                        <li><Link to={this.props.InstagramLink}><Icofont icon="icofont-instagram"/></Link></li>
-                                        <li><Link to={this.props.linkedinLink}><Icofont icon="icofont-linkedin"/></Link></li>
+                                        {/* <li><Link to={this.props.FacebookLink}><Icofont icon="icofont-facebook" /></Link></li>
+                                        <li><Link to={this.props.TwitterLink}><Icofont icon="icofont-twitter" /></Link></li>
+                                        <li><Link to={this.props.InstagramLink}><Icofont icon="icofont-instagram" /></Link></li>
+                                        <li><Link to={this.props.linkedinLink}><Icofont icon="icofont-linkedin" /></Link></li> */}
+                                        {/* this code below allows you to connect to external link without having to create a new route for it. Instead, you write the below code, for whatever
+                                        link you want, then you go all the way down to line 53 and use "// (place link here) //"  */}
+                                        <li><a href={this.props.FacebookLink} rel="noopener noreferrer" target="_blank"><Icofont icon="icofont-facebook" /></a></li>
+                                        <li><a href={this.props.TwitterLink} rel="noopener noreferrer" target="_blank"><Icofont icon="icofont-twitter" /></a></li>
+                                        <li><a href={this.props.InstagramLink} rel="noopener noreferrer" target="_blank"><Icofont icon="icofont-instagram" /></a></li>
+                                        <li><a href={this.props.linkedinLink} rel="noopener noreferrer" target="_blank"><Icofont icon="icofont-linkedin" /></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -44,9 +50,9 @@ Footer.propTypes = {
 Footer.defaultProps = {
     copyrightText: "2019 © All Rights Reserved.",
     socialTitle: "Follow Us On:",
-    FacebookLink: "/#0",
-    TwitterLink: "/#0",
-    InstagramLink: "/#0",
-    linkedinLink: "/#0",
+    FacebookLink: "//facebook.com/",
+    TwitterLink: "//twitter.com/",
+    InstagramLink: "//instagram.com//",
+    linkedinLink: "//linkedin.com//",
 };
 export default Footer;
